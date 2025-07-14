@@ -1,0 +1,52 @@
+.waitPage {
+  width: 100%;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.container1 {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.animation1 {
+  width: 550px;
+  height: 500px;
+  border: 4px solid rgb(3, 184, 210);
+}
+
+.container1 {
+  font-size: 40px;
+  color:  rgb(3, 184, 210);
+}
+
+@media only screen and (max-width: 500px) {
+  .container1 {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .animation1 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(3, 184, 210);
+  }
+
+  .container1 {
+    font-size: 20px;
+    color: rgb(3, 184, 210);
+  }
+}
